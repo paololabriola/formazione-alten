@@ -1,4 +1,4 @@
-package animals.generals;
+package animals.model.abstractation;
 
 import java.time.LocalDate;
 
@@ -17,7 +17,7 @@ public abstract class Animal {
 
     private double heightOfTheSpecimen;
 
-    //Constructor method of the class
+    //Class constructor
     public Animal(String nameOfTheSpecimen, String favouriteFood, int ageOfTheSpecimen, double weightOfTheSpecimen, double heightOfTheSpecimen) {
 
         this.nameOfTheSpecimen = nameOfTheSpecimen;
@@ -27,6 +27,15 @@ public abstract class Animal {
         this.weightOfTheSpecimen = weightOfTheSpecimen;
         this.heightOfTheSpecimen = heightOfTheSpecimen;
 
+    }
+
+    public Animal(String nameOfTheSpecimen, String favouriteFood, int ageOfTheSpecimen, LocalDate importDate, double weightOfTheSpecimen, double heightOfTheSpecimen) {
+        this.nameOfTheSpecimen = nameOfTheSpecimen;
+        this.favouriteFood = favouriteFood;
+        this.ageOfTheSpecimen = ageOfTheSpecimen;
+        this.importDate = importDate;
+        this.weightOfTheSpecimen = weightOfTheSpecimen;
+        this.heightOfTheSpecimen = heightOfTheSpecimen;
     }
 
     //Class methods getter and setter
