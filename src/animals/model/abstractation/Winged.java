@@ -1,4 +1,4 @@
-package animals.generals;
+package animals.model.abstractation;
 
 public abstract class Winged extends Animal {
 
