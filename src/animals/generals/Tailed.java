@@ -1,11 +1,11 @@
-package animals.model.abstractation;
+package animals.generals;
 
 public abstract class Tailed extends Animal {
 
     //Class attributes
     private double tailLength;
 
-    //Class constructor
+    //Constructor method of the class
     public Tailed(String nameOfTheSpecimen, String favouriteFood, int ageOfTheSpecimen, double weightOfTheSpecimen, double heightOfTheSpecimen, double tailLength) {
 
         super(nameOfTheSpecimen, favouriteFood, ageOfTheSpecimen, weightOfTheSpecimen, heightOfTheSpecimen);

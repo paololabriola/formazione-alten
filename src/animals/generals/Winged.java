@@ -1,11 +1,11 @@
-package animals.model.abstractation;
+package animals.generals;
 
 public abstract class Winged extends Animal {
 
     //Class attributes
     private double wingSpan;
 
-    //Class constructor
+    //Constructor method of the class
     public Winged(String nameOfTheSpecimen, String favouriteFood, int ageOfTheSpecimen, double weightOfTheSpecimen, double heightOfTheSpecimen, double wingSpan) {
 
         super(nameOfTheSpecimen, favouriteFood, ageOfTheSpecimen, weightOfTheSpecimen, heightOfTheSpecimen);
