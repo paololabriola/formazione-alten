@@ -1,13 +1,13 @@
 package animals.utils;
 
-import animals.generals.Animal;
-import animals.generals.Tailed;
-import animals.generals.Winged;
+import animals.model.abstractation.Animal;
+import animals.model.abstractation.Tailed;
+import animals.model.abstractation.Winged;
 
 import java.util.Comparator;
 import java.util.List;
 
-public class sortUtils {
+public class SortUtils {
     //Sorting method by the height of the specimens.
     public static List<Animal> sortByHeight(List<Animal> animals) {
 
