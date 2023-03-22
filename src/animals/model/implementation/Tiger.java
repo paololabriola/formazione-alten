@@ -1,6 +1,6 @@
 package animals.model.implementation;
 
-import animals.generals.Tailed;
+import animals.model.abstractation.Tailed;
 
 public class Tiger extends Tailed {
 
