@@ -1,4 +1,4 @@
-package animals.species;
+package animals.model.implementation;
 
 import animals.generals.Tailed;
 
